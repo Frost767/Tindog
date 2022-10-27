@@ -1,0 +1,183 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  width: 70%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "ubuntu";
+  line-height: normal;
+  font-size: 3rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 5% ;
+  font-size: 30px;}
+
+/* navigationbar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.3rem;
+  position: relative;
+  right: 200px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-light";
+  position: relative;
+  left: 120px;
+}
+
+/* Downloadbuttons */
+.btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.titleimage {
+  width: 15%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin-left: 100px;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.fa {
+  color: #ef8172;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.para1 {
+  font-size: 1rem;
+  font-family: "Montserrat-light";
+  text-align: center;
+}
+
+.fa:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-indicators {
+  padding-right: 200px;
+}
+
+.big {
+  padding-bottom: 20px;
+}
+
+#pricing {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media(max-width:1020px) {
+  .titleimage {
+    position: static;
+    transform: rotate(0);
+    width: 35%;
+    margin-left: auto;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #testimonials {
+    text-align: center;
+  }
+}
+
+/* Footer */
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  font-family: Ubuntu;
+  padding-top: 5%;
+  font-size: 3rem;
+}
+
+.ok {
+  font-size: 2rem;
+}
+
+#footer {
+  text-align: center;
+  padding: 3%;
+  margin-right: 50px;
+}
+
+.fa-brands {
+  padding-left: 5px;
+}
+
+.yes {
+  color: gray;
+}
